@@ -20,6 +20,12 @@ Create `vercel.json` inside of application root folder.
   }
   ```
   
-  ---
+  --
   
   Add `app.set('views', __dirname + '/views)` to top of code before `app.set('view engine', 'ejs')`
+  
+  --
+  
+  Remove `.ejs` from all `res.render()` functions.
+  
+  Example: `res.render('index.ejs')` becomes `res.render('index')`
