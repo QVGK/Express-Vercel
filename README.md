@@ -29,3 +29,5 @@ Create `vercel.json` inside of application root folder.
   Remove `.ejs` from all `res.render()` functions.
   
   Example: `res.render('index.ejs')` becomes `res.render('index')`
+  
+  ---
