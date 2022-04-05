@@ -1,3 +1,7 @@
+# NodeJS Applications on Vercel (EJS)
+
+Create `vercel.json` inside of application root folder.
+
 ```
 {
     "version": 2,
@@ -15,3 +19,7 @@
     ]
   }
   ```
+  
+  ---
+  
+  Add `app.set('views', __dirname + '/views)` to top of code before `app.set('view engine', 'ejs')`
