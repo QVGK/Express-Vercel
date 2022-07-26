@@ -5,7 +5,8 @@ labels: ['broken :adhesive_bandage:']
 assignees: []
 body:
   - type: markdown
-    value: '## Broken Method Report'
+    attributes:
+      value: '## Broken Method Report'
   - type: markdown
     attributes:
       value: |
