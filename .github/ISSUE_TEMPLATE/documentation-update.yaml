@@ -9,10 +9,11 @@ body:
   - type: dropdown
     id: status
     attributes:
-      label: Is it incorrect or an error?
+      label: Is there incorrect information or an error that needs to be updated?
       options:
-        - 'Incorrect'
+        - 'Incorrect Information'
         - 'Error'
+        - 'Other'
     validations:
       required: true
     
@@ -20,6 +21,6 @@ body:
   - type: textarea
     id: fixing
     attributes:
-      label: What needs updating?
+      label: What needs to be updated?
     validations:
       required: true
