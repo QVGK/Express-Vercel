@@ -32,4 +32,4 @@ Run `vercel` in the Root Directory's terminal. Run `vercel --prod` if you've alr
 
 ## Step 3: Done!
 
-Your application is now running on <img src="./img/vercel-logotype-light.png" height="16px"/> . Just so you know, this is NOT required if using React or another JS framework. You also cannot host Discord bots with this. In that case, I recommend using [Fly](https://fly.io). For free, you can host for around 2000 hours a month (around 3 24/7 applications). Balance DOES reset every month.
+Your application is now running on <img src="./img/vercel-logotype-light.png" height="16px"/> . Just so you know, this is NOT required if using React or another JS framework. You also cannot host Discord bots with this. In that case, I recommend using [Fly](https://fly.io). For free, you can host for around 2000 hours a month (around 3 24/7 applications). Balance DOES reset every month. I also recommend this for hosting your backend instead of Vercel.
