@@ -1,5 +1,5 @@
 name: '📖 Documentation Update'
-description: 'The README documentation is incorrect or has an type that needs to be fixed.'
+description: 'The README documentation is incorrect or has an typo that needs to be fixed.'
 title: '[DOCUMENTATION]: '
 assignees: ['QVGK']
 labels: ['Invalid Documentation', 'Unsolved']
