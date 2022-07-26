@@ -18,8 +18,8 @@ body:
     attributes:
       label: Are any Vercel APIs down?
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
     
