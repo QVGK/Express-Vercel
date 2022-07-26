@@ -1,7 +1,7 @@
 ---
 name: 'Broken Method'
 title: '[BROKEN]'
-labels: 'broken :adhesive_bandage:'
+labels: ['broken :adhesive_bandage:']
 assignees: []
 body:
   - type: markdown
