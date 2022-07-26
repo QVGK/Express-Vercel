@@ -17,7 +17,9 @@ body:
     id: status
     attributes:
       label: Are any Vercel APIs down?
-      description: 'https://status.vercel.com'
+      options:
+        - Yes
+        - No
     validations:
       required: true
     
