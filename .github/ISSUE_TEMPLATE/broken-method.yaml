@@ -1,7 +1,6 @@
 ---
 name: 'Broken Method'
 title: '[BROKEN]'
-about: 'This method no longer works and needs to be updated.'
 labels: 'broken :adhesive_bandage:'
 assignees: []
 body:
