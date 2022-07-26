@@ -1,1 +1,25 @@
+name: 'Documentation Update'
+description: 'The README file is incorrect or has an error that needs updating.'
+title: ''
+assignees: ['QVGK']
+labels: ['documentation :book:']
 
+body:
+   
+  - type: dropdown
+    id: status
+    attributes:
+      label: Is it incorrect or an error?
+      options:
+        - 'Incorrect'
+        - 'Error'
+    validations:
+      required: true
+    
+    
+  - type: input
+    id: fixing
+    attributes:
+      label: What needs updating?
+    validations:
+      required: true
