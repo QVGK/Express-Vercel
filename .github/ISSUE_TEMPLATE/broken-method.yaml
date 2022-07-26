@@ -1,7 +1,7 @@
 name: '🩹 Broken Method'
 description: 'This method no longer works and needs updating.'
 title: '[BROKEN]: '
-labels: ['broken :adhesive_bandage:']
+labels: ['Broken Method', 'Unsolved']
 assignees: ['QVGK']
 body:
 
