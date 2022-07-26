@@ -9,7 +9,6 @@ body:
     id: when
     attributes:
       label: When did this start to occur?
-      description: 'What error does Vercel give you?'
     validations:
       required: true
       
@@ -27,7 +26,7 @@ body:
   - type: input
     id: error
     attributes:
-      label: Vercel Error
-      description: 'What error does Vercel give you?'
+      label: What error does Vercel give you?
+      description: 'Not required if you do not know.'
     validations:
-      required: true
+      required: false
