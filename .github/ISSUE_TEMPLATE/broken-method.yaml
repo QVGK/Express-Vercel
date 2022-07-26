@@ -1,5 +1,5 @@
 name: '🩹 Broken Method'
-description: 'This method no longer works and needs updating.'
+description: 'This method no longer works and needs to be updated.'
 title: '[BROKEN]: '
 labels: ['Broken Method', 'Unsolved']
 assignees: ['QVGK']
