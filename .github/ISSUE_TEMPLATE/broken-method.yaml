@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-      This is a report to tell us that this method for Vercel no longer works.
+        This is a report to tell us that this method for Vercel no longer works.
   - type: input
     id: error
     attributes:
