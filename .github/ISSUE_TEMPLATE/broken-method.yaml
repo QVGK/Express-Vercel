@@ -1,9 +1,8 @@
 ---
-name: Broken Method
-about: This method no longer works and needs updating.
+name: 'Broken Method'
 title: ''
 labels: 'broken :adhesive_bandage:'
-assignees: ''
+assignees: []
 body:
   - type: markdown
     attributes:
