@@ -1,6 +1,12 @@
-# NodeJS Applications on Vercel (EJS)
+<h1 align="center">Hosting Express Applications on <img src="./img/vercel-logotype-light.png" height="22px"/></h1> 
 
-Create `vercel.json` inside of application root folder.
+Before continuing, make sure you have the Vercel CLI installed. (`npm i -g vercel`)
+    
+<hr/>
+
+## Step 1: Create the `vercel.json` in the Root Directory.
+
+Create (or download) the `vercel.json` file and inside, put the following:
 
 ```
 {
@@ -20,14 +26,6 @@ Create `vercel.json` inside of application root folder.
   }
   ```
   
-  ---
-  
-  Add `app.set('views', __dirname + '/views)` to top of code before `app.set('view engine', 'ejs')`
-  
-  ---
-  
-  Remove `.ejs` from all `res.render()` functions.
-  
-  Example: `res.render('index.ejs')` becomes `res.render('index')`
-  
-  ---
+## Step 2: Deploy VIA Vercel CLI
+
+Run `vercel` in the Root Directory's terminal. Run `vercel --prod` if you've already ran `vercel` and want to deploy to the production branch.
