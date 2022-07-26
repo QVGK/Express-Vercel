@@ -1,4 +1,3 @@
----
 name: 'Broken Method'
 title: '[BROKEN]'
 labels: ['broken :adhesive_bandage:']
@@ -16,7 +15,5 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-
----
 
 
