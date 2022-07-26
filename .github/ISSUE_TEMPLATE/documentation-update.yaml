@@ -17,7 +17,7 @@ body:
       required: true
     
     
-  - type: input
+  - type: textarea
     id: fixing
     attributes:
       label: What needs updating?
