@@ -4,17 +4,28 @@ title: '[BROKEN]: '
 labels: ['broken :adhesive_bandage:']
 assignees: []
 body:
-  - type: markdown
+
+  - type: input
+    id: when
     attributes:
-      value: '## Broken Method Report'
-  - type: markdown
+      label: When did this start to occur?
+      description: 'What error does Vercel give you?'
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: status
     attributes:
-      value: |
-        This is a report to tell us that this method for Vercel no longer works.
+      label: Are any Vercel APIs down?
+      description: 'https://status.vercel.com'
+    validations:
+      required: true
+    
+    
   - type: input
     id: error
     attributes:
       label: Vercel Error
-      description: 'What error does Vercel tell you?'
+      description: 'What error does Vercel give you?'
     validations:
-      required: false
+      required: true
